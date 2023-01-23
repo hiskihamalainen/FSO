@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -6,3 +7,4 @@ sequenceDiagram
     activate server
     server-->>broser: HTTP-status 201
     deactivate server
+```
